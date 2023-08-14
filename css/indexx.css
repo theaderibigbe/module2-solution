@@ -1,0 +1,211 @@
+/*Base Styles*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.75em;
+}
+
+#menu {
+    padding: 20px;
+}
+
+.row {
+    width: 100%;
+}
+
+.menu-item {
+    position: relative;
+    background-color: #918e87;
+    border: 2px solid black;
+    margin: 0 10px 20px 10px;
+}
+
+.menu-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border: 1px solid #000;
+    width: 40%;
+    font-size: 1.25em;
+}
+
+.chick {
+    background-color: #ad2d2d;
+} 
+
+.cow {
+    background-color: #702458;
+}
+
+.fish {
+    background-color: #6b8e23;
+}
+
+p {
+    margin-top: 30px;
+    padding: 2px 10px 10px 5px;
+    font-size: 1em;
+}
+
+
+/* Media Queries for Responsive Design */
+
+/* Desktop screen  */
+@media (min-width: 992px) {
+    h1 {
+        margin: 40px;
+    }
+
+    .lg-1,
+    .lg-2,
+    .lg-3,
+    .lg-4,
+    .lg-5,
+    .lg-6,
+    .lg-7,
+    .lg-8,
+    .lg-9,
+    .lg-10,
+    .lg-11,
+    .lg-12 {
+        float: left;
+    }
+
+    .lg-1 {
+        width: 8.33%;
+    }
+
+    .lg-2 {
+        width: 16.66%;
+    }
+
+    .lg-3 {
+        width: 25%;
+    }
+
+    .lg-4 {
+        width: 33.33%;
+    }
+
+    .lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .lg-7 {
+        width: 58.33%;
+    }
+
+    .lg-8 {
+        width: 66.66%;
+    }
+
+    .lg-9 {
+        width: 74.99%;
+    }
+
+    .lg-10 {
+        width: 83.33%;
+    }
+
+    .lg-11 {
+        width: 91.66%;
+    }
+
+    .lg-12 {
+        width: 100%;
+    }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        margin: 30px;
+    }
+
+    .fish {
+        width: 20%;
+    }
+
+    .md-1,
+    .md-2,
+    .md-3,
+    .md-4,
+    .md-5,
+    .md-6,
+    .md-7,
+    .md-8,
+    .md-9,
+    .md-10,
+    .md-11,
+    .md-12 {
+        float: left;
+    }
+
+    .md-1 {
+        width: 8.33%;
+    }
+
+    .md-2 {
+        width: 16.66%;
+    }
+
+    .md-3 {
+        width: 25%;
+    }
+
+    .md-4 {
+        width: 33.33%;
+    }
+
+    .md-5 {
+        width: 41.66%;
+    }
+
+    .md-6 {
+        width: 50%;
+    }
+
+    .md-7 {
+        width: 58.33%;
+    }
+
+    .md-8 {
+        width: 66.66%;
+    }
+
+    .md-9 {
+        width: 74.99%;
+    }
+
+    .md-10 {
+        width: 83.33%;
+    }
+
+    .md-11 {
+        width: 91.66%;
+    }
+
+    .md-12 {
+        width: 100%;
+    }
+}
+/* Mobile view */
+@media (max-width: 767px)  {
+    h1 {
+        margin: 20px;
+    }
